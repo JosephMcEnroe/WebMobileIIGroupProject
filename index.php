@@ -1,4 +1,4 @@
-<?php include 'assets/presets/headerindex.php'; ?>
+<?php include 'assets/presets/header/headerindex.php'; ?>
 <main>
     <h1>Welcome to Your Python Programming Journey!</h1>
         <p>
@@ -17,4 +17,4 @@
         artificial intelligence, and scientific computing. It's a language 
         that opens doors to countless opportunities and innovative projects.</p>
 </main>
-<?php include 'assets/presets/footer.php'; ?>
+<?php include 'assets/presets/footer/footerindex.php'; ?>
