@@ -10,7 +10,7 @@
 <body>
 <header>
         <nav>
-            <a class="nav-logo" href="index.php">Learn Python</a>
+            <a class="nav-logo" href="../../index.php">Learn Python</a>
             <ul class="nav-menu">
                 <li class="nav-item"><a class="nav-link" href="../../index.php">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="../../content/tutorials.php">Tutorials</a></li>
