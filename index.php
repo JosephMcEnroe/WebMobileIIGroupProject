@@ -1,10 +1,9 @@
 <?php 
 include 'assets/presets/header/headerindex.php'; 
+include 'dbConnect.php'; 
 ?>
 <main>
     <?php
-        $dbpath = './adminer/';
-        require $dbpath . 'dbConnect.inc';
         if ($mysqli) {
             //get contents of table and send back...
             $sql = 'SELECT id, header, content FROM homepage';
