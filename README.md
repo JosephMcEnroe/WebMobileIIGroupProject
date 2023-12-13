@@ -1,13 +1,13 @@
 # WebMobileIIGroupProject
 
 # Add Database Configuration
-Create `dbConnect.inc` file in `adminer/` folder.
-```
+Create `dbConnect.inc` file in `adminer/` folder. and replace `<groupname>`, `<password>`, `<dbname>` accordingly
+``` dbConnect.inc
 <?php
 $servername = "localhost";
 $username = "<groupname>";
 $password = "<password>";
-$db = "<databasename>";
+$db = "<dbname>";
 
 // Create connection
 $mysqli = new mysqli($servername, $username, $password, $db);
