@@ -1,4 +1,7 @@
-<?php include '../assets/presets/header/headercontent.php';?>
+<?php 
+include '../assets/presets/header/headercontent.php';
+include "../dbConnect.php"; 
+?>
 <main>
     <h1>Tutorial</h1>
     <ul>
