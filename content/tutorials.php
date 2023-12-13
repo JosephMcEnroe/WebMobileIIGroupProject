@@ -3,6 +3,11 @@ include '../assets/presets/header/headercontent.php';
 include "../dbConnect.php"; 
 ?>
 <main>
+    <?php
+        if($mysqli) {
+            echo "YES";
+        }
+    ?>
     <h1>Tutorial</h1>
     <ul>
         <li>
