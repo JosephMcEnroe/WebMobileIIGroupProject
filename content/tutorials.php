@@ -1,5 +1,5 @@
 <?php 
-include '../assets/presets/header/headercontent.php';
+include '../assets/presets/header/header.php';
 include "../dbConnect.php"; 
 ?>
 <main>
@@ -15,4 +15,4 @@ include "../dbConnect.php";
         </li>
     </ul>
 </main>
-<?php include '../assets/presets/footer/footercontent.php';?>
+<?php include '../assets/presets/footer/footer.php';?>
