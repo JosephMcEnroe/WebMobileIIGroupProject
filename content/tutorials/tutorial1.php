@@ -1,4 +1,4 @@
-<?php include "../../assets/presets/header/headertutorial.php"; ?>
+<?php include "../../assets/presets/header/header.php"; ?>
 <main>
     <h1>Tutorial 1: Hello World!</h1>
 
@@ -20,7 +20,7 @@
     Hint: use “\n”
     </p>
 
-    <a href = "../tutorials.php">Back to tutorials</a>
+    <a href = "<?php echo $path . "content/tutorials.php";?>">Back to tutorials</a>
 
 </main>
-<?php include "../../assets/presets/footer/footertutorial.php"; ?>
+<?php include "../../assets/presets/footer/footer.php"; ?>
