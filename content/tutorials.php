@@ -3,16 +3,24 @@ include '../assets/presets/header/header.php';
 include "../dbConnect.php"; 
 ?>
 <main>
-    <?php
-        if($mysqli) {
-            echo "YES";
-        }
-    ?>
     <h1>Tutorial</h1>
     <ul>
-        <li>
-            <a href = "tutorials/tutorial1.php">Hello World!</a>
-        </li>
+    <?php
+        if ($mysqli) {
+            //get contents of table and send back...
+            $sql = 'SELECT id, url, content FROM tutorial_links';
+            $res=$mysqli->query($sql);
+            if($res){
+                while ($rowHolder = mysqli_fetch_array($res,MYSQLI_ASSOC)) {
+                    $html = "
+                    <li><a href=\"{$rowHolder["url"]}\">{$rowHolder["content"]}</a></li>
+                    ";
+                    echo $html;
+                }
+            }
+        }
+
+    ?>
     </ul>
 </main>
 <?php include '../assets/presets/footer/footer.php';?>
