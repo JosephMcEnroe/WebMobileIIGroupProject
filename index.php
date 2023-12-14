@@ -1,5 +1,5 @@
 <?php 
-include 'assets/presets/header/headerindex.php'; 
+include 'assets/presets/header/header.php'; 
 include 'dbConnect.php'; 
 ?>
 <main>
@@ -21,4 +21,4 @@ include 'dbConnect.php';
 
     ?>
 </main>
-<?php include 'assets/presets/footer/footerindex.php'; ?>
+<?php include 'assets/presets/footer/header.php'; ?>
