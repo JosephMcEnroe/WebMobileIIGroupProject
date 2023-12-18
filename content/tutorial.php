@@ -45,8 +45,9 @@ include "../dbConnect.php";
                     $res= $mysqli->query($sql);
                     $row = mysqli_fetch_array($res,MYSQLI_ASSOC);
                     $pageTitle = str_replace(' ', '%20', $row["title"]);
+                    $go = "tutorial.php?id=$prev&pageTitle=$pageTitle";
                     echo "<div>";
-                    echo "<a href=\"tutorial.php?id=$prev&pageTitle=$pageTitle\">Previous Tutorial</a>";
+                    echo "<a class=\"button-style\" href=\"tutorial.php?id=$prev&pageTitle=$pageTitle\">Previous Tutorial</a>";
                     echo "</div>";
                 }
                 if ($id+1 <= $count) {
@@ -55,8 +56,9 @@ include "../dbConnect.php";
                     $res= $mysqli->query($sql);
                     $row = mysqli_fetch_array($res,MYSQLI_ASSOC);
                     $pageTitle = str_replace(' ', '%20', $row["title"]);
+                    $go = "tutorial.php?id=$next&pageTitle=$pageTitle";
                     echo "<div>";
-                    echo "<a href=\"tutorial.php?id=$next&pageTitle=$pageTitle\">Next Tutorial</a>";
+                    echo "<a class=\"button-style\" href=\"tutorial.php?id=$next&pageTitle=$pageTitle\">Next Tutorial</a>";
                     echo "</div>";
                 }
             }
