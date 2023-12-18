@@ -24,6 +24,7 @@ $path = "//" . $_SERVER['SERVER_NAME'] . "/~tth6714/WebMobileIIGroupProject/";
     <ul>
     <li><a onclick="toggleMenu()"  href="<?php echo $path . "index.php";?>">Home</a></li>
     <li><a onclick="toggleMenu()"  href="<?php echo $path . "content/tutorials.php";?>">Tutorials</a></li>
+    <li><a onclick="toggleMenu()"  href="<?php echo $path . "content/quiz.php";?>">Quiz</a></li>
     <li><a onclick="toggleMenu()"  href="<?php echo $path . "content/chat.php";?>">Chat</a></li>
     <li><a onclick="toggleMenu()"  href="<?php echo $path . "content/about.php";?>">About</a></li>
     <li><a onclick="toggleMenu()"  href="<?php echo $path . "content/feedback.php";?>">Feedback</a></li>
