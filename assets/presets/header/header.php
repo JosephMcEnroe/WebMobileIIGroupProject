@@ -19,7 +19,7 @@ $path = "//" . $_SERVER['SERVER_NAME'] . "/~tth6714/WebMobileIIGroupProject/";
 <img id="top-logo" src="<?php echo $path . "assets/img/logo.png";?>" alt="Logo">
 </header>
 <nav>
-<img id="logo" src="<?php echo $path . "assets/img/logo.png"; ?>" alt="Logo">
+    <a href="<?php echo $path . "index.php";?>"><img id="logo" src="<?php echo $path . "assets/img/logo.png"; ?>" alt="Logo"></a>
     <div class="hamburger-menu" onclick="toggleMenu()">&#9776;</div>
     <ul>
     <li><a onclick="toggleMenu()"  href="<?php echo $path . "index.php";?>">Home</a></li>
