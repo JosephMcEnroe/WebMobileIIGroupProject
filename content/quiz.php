@@ -7,6 +7,7 @@ function clean_input($data) {
 }
 
 $pageTitle="Quiz";
+$total = 3;
 $list = array();
 if (!empty($_GET["q1"])) {
     $list[] = clean_input($_GET["q1"]);
@@ -74,7 +75,7 @@ include "../dbConnect.php";
                     //get contents of table and send back...
                     for ($i = 0; $i < count($list); $i++) {
                         $id = $i+1;
-                        $sql = "SELECT answer from quiz where id=$id";
+                        $sql = "SELECT as num, answer from quiz where id=$id";
                         $res=$mysqli->query($sql);
                         if($res){
                             $rowHolder = mysqli_fetch_array($res,MYSQLI_ASSOC);
@@ -84,7 +85,7 @@ include "../dbConnect.php";
                         }
                         
                     }
-                    $html = $html . $score . "/" . count($list);
+                    $html = $html . $score . "/" . $total;
                     echo $html;
                 }
 
