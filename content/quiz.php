@@ -75,7 +75,7 @@ include "../dbConnect.php";
                     //get contents of table and send back...
                     for ($i = 0; $i < count($list); $i++) {
                         $id = $i+1;
-                        $sql = "SELECT as num, answer from quiz where id=$id";
+                        $sql = "SELECT answer from quiz where id=$id";
                         $res=$mysqli->query($sql);
                         if($res){
                             $rowHolder = mysqli_fetch_array($res,MYSQLI_ASSOC);
