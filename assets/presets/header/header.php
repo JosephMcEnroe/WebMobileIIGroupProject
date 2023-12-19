@@ -1,6 +1,6 @@
 
 <?php
-$path = "//" . $_SERVER['SERVER_NAME'] . "/~iste240t60/WebMobileIIGroupProject/";
+$path = "//" . $_SERVER['SERVER_NAME'] . "/~iste240t60/";
 ?>
 <!DOCTYPE html>
 <!-- header used for all content files except for everything within the tutorial folder -->

@@ -1,5 +1,5 @@
 <?php
-$path = "//" . $_SERVER['SERVER_NAME'] . "/~iste240t60/WebMobileIIGroupProject/";
+$path = "//" . $_SERVER['SERVER_NAME'] . "/~iste240t60/";
 ?>
 <footer>
     <p>&copy; 2023 LearnPython | ISTE 240 Group 6</p>

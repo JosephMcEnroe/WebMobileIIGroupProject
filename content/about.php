@@ -6,8 +6,9 @@ include "../dbConnect.php";
     <div class="container">
         <div class="content-center">
             <h1>About Us</h1>
-            <p>We aim to provide accessible information for beginners to learn about the Python programming
-                language.</p>
+            <p>
+            Our goal is to make education about the Python programming language as accessible as possible for beginners. We focus on presenting Python as a user-friendly language, emphasizing its simplicity and readability, which are ideal for those just starting their programming journey. By offering resources that cover various programming paradigms supported by Python, including object-oriented and functional programming, we cater to a wide range of learning styles and interests. //change the about.php sentence to this
+            </p>
         </div>
     </div>
 
